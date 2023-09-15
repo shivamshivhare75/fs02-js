@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #0b1e3b;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container styles */
+.main-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title styles */
+.main-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Form styles */
+.main-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-input {
+    width: calc(19%);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.main-button {
+    width: calc(19%);
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* Error prompt styles */
+.main-error-prompt {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Scoreboard styles */
+.main-scoreboard-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-scoreboard {
+    width: 100%;
+    background-color: #548645;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(195, 236, 119, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-scoreboard p {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.main-scoreboard-btn-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-scoreboard-btn-container button {
+    font-size: 20px;
+    cursor: pointer;
+}
